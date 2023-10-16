@@ -5,7 +5,7 @@ import { CountryLookup } from '@/components';
 
 export const Footer = () => {
   return (
-    <footer className="absolute bottom-0 text-sm text-gray-200 w-full">
+    <footer className="fixed bottom-0 bg-midground-color text-sm w-full">
       <div className="border-b px-8 py-3">
         <CountryLookup />
       </div>

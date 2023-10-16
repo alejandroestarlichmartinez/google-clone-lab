@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head />
-      <body className={inter.className}>
+      <body className={`relative min-h-screen ${inter.className}`}>
         {children}
         <Footer />
       </body>
